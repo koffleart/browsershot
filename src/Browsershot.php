@@ -19,7 +19,7 @@ class Browsershot
     protected $includePath = '$PATH:/usr/local/bin';
     protected $binPath = null;
     protected $html = '';
-    protected $noSandbox = false;
+    protected $noSandbox = true;
     protected $proxyServer = '';
     protected $showBackground = false;
     protected $showScreenshotBackground = true;
