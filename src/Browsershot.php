@@ -776,7 +776,7 @@ class Browsershot
             return "NODE_PATH=`{$nodeBinary} {$this->npmBinary} root -g`";
         }
 
-        return 'NODE_PATH=`npm root -g`';
+        return 'NODE_PATH=`sudo npm root -g`';
     }
 
     protected function getOptionsCommand(string $command): string
